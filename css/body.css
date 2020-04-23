@@ -1,0 +1,204 @@
+.bodyContainer {
+  width: 100%;
+  position: relative;
+}
+/* Main Block */
+.bodyBanner {
+  width: 100%;
+  height: 600px;
+  background-image: url('../assets/banner.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bodyIntroduction {
+  width: 100%;
+  height: 650px;
+  padding: 100px 0px;
+  position: relative;
+}
+.bodyHowWeWork {
+  width: 100%;
+  height: 560px;
+  position: relative;
+  display: flex;
+}
+.bodyFooter {
+  width: 100%;
+  height: 533px;
+  background-color: #222;
+}
+/* Block One */
+.bodyBannerTextContainer {
+  min-width: 380px;
+  max-width: 1170px;
+  width: 70%;
+  height: 175px;
+}
+.bodyBannerTextTitle {
+  letter-spacing: 5px;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: normal;
+  color: white;
+}
+.bodyBannerTextSubTitle {
+  letter-spacing: 6px;
+  font-size: 20px;
+  color: white;
+}
+.bodyBannerTextAction {
+  position: relative;
+  display: flex;
+}
+.bodyBannerTextButton {
+  width: 95px;
+  height: 39px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-size: 12px;
+  transition: all 0.5s;
+}
+.bodyBannerTextButton:hover {
+  color: #333;
+  background: white;
+  cursor: pointer;
+  user-select: none;
+}
+/* Block Two */
+.bodyIntroductionTitle {
+  width: 100%;
+  height: 190px;
+}
+.bodyIntroductionContent {
+  width: 100%;
+  height: calc(100% - 190px);
+  display: flex;
+}
+.bodyIntroductionTitleStyle {
+  height: 90px;
+  color: #333;
+  font-size: 24px;
+}
+.bodyIntroductionContentStyle {
+  color: #7e7e7e;
+  line-height: 25px;
+  font-size: 15px;
+}
+.bodyIntroductionLeft {
+  width: 35%;
+}
+.bodyIntroductionCenter {
+  width: 30%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bodyIntroductionRight {
+  width: 35%;
+}
+.bodyIntroductionLeftItem {
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+.bodyIntroductionRightItem {
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+.itemImgStyle {
+  width: 60px;
+  height: 60px;
+}
+.itemImgCenterStyle {
+  width: 85%;
+  height: 85%;
+  object-fit: contain;
+}
+.item1Image {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.item1Title {
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 18px;
+  color: #333;
+}
+.item1Content {
+  padding-left: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: end;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #7e7e7e;
+}
+.item2Image {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.item2Title {
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 18px;
+  color: #333;
+}
+.item2Content {
+  padding-right: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: start;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #7e7e7e;
+}
+
+/* Block Three */
+.bodyHowWeWorkLeft {
+  width: 50%;
+  height: 100%;
+  background-image: url('../assets/left.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bodyHowWeWorkRight {
+  width: 50%;
+  height: 100%;
+  background-image: url('../assets/right.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
